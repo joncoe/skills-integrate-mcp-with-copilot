@@ -57,6 +57,34 @@ section h3 {
   color: #1a237e;
 }
 
+.activity-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.toolbar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 140px;
+}
+
+.toolbar-group label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.toolbar-group input,
+.toolbar-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;

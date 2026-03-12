@@ -48,3 +48,8 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Future Features to Explore
+
+- Add a student notification system so users are informed when an activity-related request or complaint receives an admin response.
+- Add a production-ready API/auth hardening pass (consistent endpoint behavior, authorization checks, and clearer API contracts).
